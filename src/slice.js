@@ -10,7 +10,7 @@ const dataSlice = createSlice({
             return(state);
         },
         addData:(state,action)=>{
-            state[action.payload.loc] = action.payload.newObj;
+            state[state.length] = action.payload;
             return(state);
         }
     }

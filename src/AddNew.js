@@ -5,9 +5,7 @@ import Navbar from './Navbar';
 import { addData } from './slice';
 
 function AddNew() {
-    //const DataContext  = useContext(ContextData);
     const dispatch = useDispatch();
-    //const Bdata = useSelector((state)=>state.dataKey)
     const nav= useNavigate();
     const  newObj = {
         name:"",
