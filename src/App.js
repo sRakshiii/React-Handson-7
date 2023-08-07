@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
+        
         <Route path='/' element={<Home/>}></Route>
         <Route path='/student' element={
           <Provider store = {store} value={{entries:data, updateFun:setData}}>

@@ -6,6 +6,7 @@ export default function Contact() {
     <>
     <Navbar/>
     <h1>Contact</h1>
+    
     </>
   )
 }

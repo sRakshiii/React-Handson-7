@@ -15,13 +15,16 @@ function Edit() {
         course: Bdata[loc].course,
         batch: Bdata[loc].batch,
     }
+
     const handleChange = (event)=>{
         currentData[event.target.name]=event.target.value;
     }
+
     const HandleSubmit=()=>{
         dispatch(editData({currentData,loc}));
         nav(-1);
     }
+    
     const cancel=()=>{
         nav(-1);
     }

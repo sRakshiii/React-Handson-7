@@ -10,6 +10,7 @@ const Student = () => {
     return(
         <>
         <Navbar/>
+        
         <h1>Student Datails</h1>
         <button className="addbtn" onClick={()=>{nav('/addnew')}}>Add New Student</button>
         <br/>

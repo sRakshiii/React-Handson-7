@@ -22,6 +22,7 @@ function AddNew() {
     }
   return (
     <>
+    
     <Navbar/>
     <br/>
     <br/>
